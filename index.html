@@ -65,7 +65,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#skills"><i class="bi bi-lightning navicon"></i> Skills</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> CV</a></li>
+        <li><a href="#cv"><i class="bi bi-file-earmark-text navicon"></i> CV</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
       </ul>
     </nav>
@@ -94,10 +94,17 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>My career path hasn't been the most straightforward! After spending seven years as a full stack engineer,
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row">
+          <p>My career path hasn't been the most straightforward! After spending seven years as a full stack engineer,
         I took a career break to pursue some personal goals and spend time with my young family. After some
         time in the property and brewing industries it's time for me to resume my technical career.</p>
-      </div><!-- End Section Title -->
+
+          <p>This website is a work in progress.</p>
+        </div>
+      </div>
     </section><!-- /About Section -->
 
     <!-- Skills Section -->
@@ -106,10 +113,13 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
+      </div>
+
+      <div class="container content">
         <p>I have a wide range of technical skills from previous professional experience as well as recent self-directed learning:</p>
         <div class="col-lg-12">
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Java, SQL, Python, XML, HTML, CSS, C#</span></li>
+            <li class="skill-item"><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Java, SQL, Python, XML, HTML, CSS, C#</span></li>
             <li><i class="bi bi-chevron-right"></i> <strong>Databases:</strong> <span>MSSQL Server, SQLIte, PostreSQL</span></li>
             <li><i class="bi bi-chevron-right"></i> <strong>Development practices:</strong> <span>Agile development (Scrum), object oriented design and coding, Git and CVS version control, CI/CD</span></li>
             <li><i class="bi bi-chevron-right"></i> <strong>Web development:</strong> <span>HTML, CSS, Flask, Jinja, Bootstrap, Restful APIs</span></li>
@@ -119,29 +129,29 @@
         <p>I also have extensive softer skills from my varied career:</p>
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-              <ul>
+            <div class="col-lg-3">
+              <ul style="margin-bottom: 0px;">
                 <li><i class="bi bi-chevron-right"></i> <strong>Leadership</strong></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Communication and collaboration</strong></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Planning and organisation</strong></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Adaptability</strong></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Problem solving</strong></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Attention to detail</strong></li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Problem solving</strong></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Adaptability</strong></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Planning and organisation</strong></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Communication and collaboration</strong></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Teamwork and collaboration</strong></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Continuous improvement</strong></li>
               </ul>
             </div>
           </div>
         </div>
-      </div><!-- End Section Title -->
+      </div>
     </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <!-- CV Section -->
+    <section id="cv" class="resume section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -222,31 +232,30 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
+        <p>A work in progress - I'm creating a number of projects to demonstrate my skills:</p>
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <!--<ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
             <li data-filter=".filter-product">Product</li>
             <li data-filter=".filter-branding">Branding</li>
             <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
+          </ul>-->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/morse-code.jpg" class="img-fluid" alt="morse code">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Morse Code encoder</h4>
+                  <p>Convert any input into Morse code. Very basic, but my first attempt at converting
+                  a python script into a hosted webapp.</p>
+                  <a href="https://morse-code-441710.ew.r.appspot.com/" title="Morse Code" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
