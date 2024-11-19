@@ -846,12 +846,16 @@ section,
 }
 
 .portfolio .portfolio-content {
+  height: 350px; /*fix the height*/
   position: relative;
   overflow: hidden;
 }
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  object-fit: cover; /*fit the image correctly*/
+  height: 100%;
+  width: 100%;
 }
 
 .portfolio .portfolio-content .portfolio-info {
